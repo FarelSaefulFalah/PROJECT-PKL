@@ -29,6 +29,7 @@
 
 <body>
 
+
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -153,7 +154,6 @@
                 </div>
             </div>
         </div>
-
     {{-- Content --}}
 </main>
 
@@ -219,6 +219,7 @@
             </div>
         </div>
     </div>
+
     <!-- footer-bottom aera -->
     <div class="footer-bottom-area">
         <div class="container">

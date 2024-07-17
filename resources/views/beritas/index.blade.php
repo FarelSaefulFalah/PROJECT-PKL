@@ -73,7 +73,7 @@
                                         </div>
                                     @endif
                                     <div class="card-body">
-                                        <table class="table">        
+                                        <table class="table">
                                         <tbody>
                                             @php
                                                 $no = 1;
@@ -105,7 +105,7 @@
                                                                     onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')"><i class="bx bx-trash-alt me-1"></i>
                                                                     Delete</button>
                                                             </div>
-                                                        </div>  
+                                                        </div>
                                                     </td>
                                                     </form>
                                                 </td>

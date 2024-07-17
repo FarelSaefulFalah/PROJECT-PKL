@@ -21,6 +21,11 @@ class berita extends Model
     {
         return $this->BelongsTo(User::class, 'id_user');
     }
+    public function komentar()
+    {
+    return $this->hasMany(komentar::class);
+    }
+
 
     public function deleteImage(){
         if($this->cover && file_exists(public_path('img/berita' . $this->cover))){
